@@ -30,38 +30,62 @@ function Copyright(props) {
 
 const tiers = [
   {
-    title: 'Free',
+    title: 'FREE',
     price: '0',
     description: [
-      '10 users included',
-      '2 GB of storage',
-      'Help center access',
-      'Email support',
+      '50 orders/month',
+      '50 shipping labels/month',
+      '1 Warehouse',
+      '2 Users',
     ],
     buttonText: 'Sign up for free',
     buttonVariant: 'outlined',
   },
   {
-    title: 'Pro',
-    subheader: 'Most popular',
-    price: '15',
+    title: 'STANDARD',    
+    price: '69',
     description: [
-      '20 users included',
-      '10 GB of storage',
-      'Help center access',
-      'Priority email support',
+      '1500 orders/month',
+      '1500 shipping labels/month',
+      '2 Warehouse',
+      '3 Users',
+    ],
+    buttonText: 'Get started',
+    buttonVariant: 'outlined',
+  },
+  {
+    title: 'PROFESSIONAL',    
+    price: '99',
+    description: [
+      '7500 orders/month',
+      '7500 shipping labels/month',
+      '5 Warehouse',
+      '5 Users',
+    ],
+    buttonText: 'Get started',
+    buttonVariant: 'outlined',
+  },
+  {
+    title: 'PREMIUM',
+    subheader: 'Most popular',
+    price: '169',
+    description: [
+      '15000 orders/month',
+      '15000 shipping labels/month',
+      '7 Warehouse',
+      '10 Users',
     ],
     buttonText: 'Get started',
     buttonVariant: 'contained',
   },
   {
-    title: 'Enterprise',
-    price: '30',
+    title: 'ELITE',
+    price: '249',
     description: [
-      '50 users included',
-      '30 GB of storage',
-      'Help center access',
-      'Phone & email support',
+      'Unlimited orders/month',
+      'Unlimited shipping labels/month',
+      '15 Warehouse',
+      '15 Users',
     ],
     buttonText: 'Contact us',
     buttonVariant: 'outlined',
@@ -151,9 +175,7 @@ function PricingContent() {
           Pricing
         </Typography>
         <Typography variant="h5" align="center" color="text.secondary" component="p">
-          Quickly build an effective pricing table for your potential customers with
-          this layout. It&apos;s built with default MUI components with little
-          customization.
+        Different businesses have different needs. Find a plan that suits yours.
         </Typography>
       </Container>
       {/* End hero unit */}
